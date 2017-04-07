@@ -1,0 +1,19 @@
+.project
+.settings
+*~
+*.diff
+*.patch
+/*.html
+.DS_Store
+.bower.json
+.sizecache.json
+
+npm-debug.log*
+
+# Ignore everything in 2017-4-7 folder except for eslint config
+/2017-4-7/*
+!/2017-4-7/.eslintrc.json
+
+/node_modules
+
+/test/node_smoke_tests/lib/ensure_iterability.js
