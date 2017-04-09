@@ -23,6 +23,6 @@ app.post("/su",function(req,res){
 	res.send('成功接收post请求')
 })
 
-app.listen(8081,function(){
+app.listen(8082,function(){
 	console.log('server is running!')
 })
